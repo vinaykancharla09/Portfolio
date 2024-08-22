@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My portfolio website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/7796a2a047.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="/nameviany.jpeg" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#Services">Services</a></li>
+                    <li><a href="#mywork">My Work</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            
+            
+            <div class="header-text">
+                <p>Web Developer & Photographer</p>
+                <h1>I'm <span>V</span>inay <span>K</span>ancharla<br></h1>
+            </div>
+
+        </div>
+       
+    </div>
+    
+
+    
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="/me2.jpg" class="myimage">
+                </div>
+
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p class="myinfo">I am Vinay Kancharla, a web developer and photographer hailing from the vibrant culture of India. My professional journey is anchored in the realms of HTML, CSS, JavaScript, React.js, and Node.js, where I excel at creating seamless, user-friendly digital experiences. My passion, however, extends beyond the confines of code to the art of photography. Through my lens, I capture the essence of life—be it in the nuanced expressions of portraits, the sweeping beauty of landscapes, or the intricate details of nature. My Instagram page, <a href="https://www.instagram.com/vkphotography_official/"><i class="fa-brands fa-instagram"></i></a> <span>vkphotography_official</span>, serves as a canvas for my visual stories, each click a testament to my love for the art.</p> 
+                    <p class="myinfo">Beyond the digital and visual, my heart beats for storytelling and sports. I craft tales and pen quotes that resonate in both Telugu and English, weaving narratives that explore the human condition. My love for cricket, volleyball, and Formula 1 mirrors my competitive spirit and admiration for teamwork and precision. As a motorcycle enthusiast and a fitness devotee, I find freedom on the open road and discipline in the gym. These varied interests define me, not just as a professional but as a person—Vinay Kancharla, a symphony of code, captures, and creativity, living each day with passion and purpose.</p>
+                    
+                
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                        <p class="tab-links" onclick="opentab('experiences')">Experience</p>
+                        <p class="tab-links" onclick="opentab('interests')">Interests</p>
+
+                    </div>
+                    <div class="tab-content active-tab" id="skills">
+                         <ul>
+                            <li><span>Programming Languages</span><br>C, C++, Java, Python & JavaScript</li>
+                            <li><span>Front-end Development</span><br>HTML5, Css, Bootstrap, React.js</li>
+                            <li><span>Back-end Development</span><br>Node.js & Express.js</li>
+                            <li><span>Databases</span><br>MySQL, MS Access</li>
+                            <li><span>Version Control</span><br>Git, Github</li>
+                            <li><span>Cloud Services</span><br>AWS</li>
+                         </ul>
+                    </div>
+
+                    <div class="tab-content" id="education">
+                        <ul>
+                           <li><span>2023-2025</span><br>Master's in Information System</li>
+                           <li><span>2021</span><br>Certified Web professional</li>
+                           <li><span>2019-2023</span><br>Bachelor's in Electronics and Communication Engineering</li>
+                        </ul>
+                   </div>
+
+
+                   <div class="tab-content" id="experiences">
+                    <ul>
+                       <li><span>JAN 2024-MAY 2024</span><br>Graduate Assistant, Cleveland State University</li>
+                       <li><span>FEB 2022-MAY 2023</span><br>Full Stack Developer, MBM Infoserv, India</li>
+                       
+                    </ul>
+               </div>
+
+                    <div class="tab-content" id="interests">
+                        <ul>
+                           <li><span>Photography</span><br>Professional Iphone Photographer</li>
+                           <li><span>Story Writing</span><br>Interested in writing stories and Quotes.</li>
+                           <li><span>Cricket</span><br>Passionate and Well-Rounded Professional with a Knack for Cricket</li>
+                        </ul>
+                   </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+<!-- .......................Services........................ -->
+<div id="Services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-camera"></i>
+                <h2>Photography</h2>
+                <P>Experience the elegance of iPhone photography. Tailored shoots and expert editing converge to turn every moment into a timeless masterpiece.</P>
+                <a href="#">Learn more</a>
+            </div>
+
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <P>Designing your digital showcase with elegance, I create bespoke portfolio websites that illuminate your talent and journey. Let's make your story click.</P>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<!-------------------------------------MY WORK------------------------------------------->
+
+<div id="mywork">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+
+            <div class="work">
+                <img src="./Coke.jpg" alt="coketin">
+                <div class="layer">
+                <p>This picture was taken during the golden hours and it was a random thuoght that made me to click a snap of a coke tin .</p>
+                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+
+            <div class="work indiagate">
+                <img src="./CSU b&W.jpg" alt="csuimage">
+                <div class="layer">
+                <p>The building in this image is a part of Cleveland State University. This picture was captured during the noon time, beacause of the excess lighting I have edited this image into a Black & White format. </p>
+                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="./candle.jpg" alt="candleviewthroughapage">
+                <div class="layer">
+                <p>This image is an absolute creative thought that I have clicked by using a book, key and a candle. If you observe I have adjusted the exposure and the brightness perfectly to get an amazing view of key and a candel through the folded page of book.</p>
+                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+           
+           
+           
+            
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+
+    <!-- contact............... -->
+    <div id="contact">
+        <div class="container">
+            <div class="rows">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-regular fa-envelope"></i> vinaykancharla09@gmail.com</p>
+                    <div class="socoal-icons">
+                         <a href="https://www.instagram.com/vkphotography_official/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://twitter.com/vinaychowdhar19"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="https://www.linkedin.com/in/vinay-kancharla-769ba0291/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/vinaykancharla09"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                    <a href="./Vinay.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                    <div class="contact-right">
+                      <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="text" name="Email" placeholder="Your Email" required>
+                        <input type="text" name="Are you a recruiter?" placeholder="Are you a recruiter?" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">submit</button>
+                      </form> 
+                      <span id="msg"></span>
+                    </div>
+
+                
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright <i class="fa-regular fa-copyright"></i> Vinay Kancharla </p>
+        </div>
+    </div>
+
+
+
+</div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-content");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxK4lOpb_69Gje568K8pDO1GiX_dSXysQNAxx9i9K46nx1qmpWD_ImGV5NxLtZc8dYuQA/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg");
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {msg.innerHTML = "Message sent successfully"
+                setTimeout(function(){
+                   msg.innerHTML = "" 
+                },2000)})
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
