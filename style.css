@@ -137,15 +137,17 @@ nav ul li a:hover::after {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-}
+    flex-direction: row-reverse; 
+    align-items: center; 
 
-.about-col-1 {
-    flex-basis: 35%;
+.about-col-2 {
+    flex-basis: 60%;
+    padding-right: 50px; 
 }
 
 .about-col-1 img {
     width: 100%;
-    border-radius: 20px; /* Softer corners like Apple cards */
+    border-radius: 20px; 
 }
 
 .about-col-2 {
